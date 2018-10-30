@@ -15,9 +15,11 @@ int main (int argc, char *argv[])
     digitalWrite (2, HIGH) ; delay (500) ;
     digitalWrite (2,  LOW) ; delay (500) ;
   }
-  for (i=0;i<10;i++) {
+
+/*  for (i=0;i<10;i++) {
     digitalWrite (4, HIGH) ; delay (500) ;
     digitalWrite (4,  LOW) ; delay (500) ;
   }
+*/
   return 0 ;
 }
